@@ -220,7 +220,7 @@
 	<section class="slide">
 		<h2>Как дела у ноды?</h2>
 		<ul>
-			<li class="next">Уже 7 лет (с 2009, npm since 2010).</li>
+			<li class="next">Уже 7 лет в деле (с 2009, npm since 2010).</li>
 			<li class="next">v7.9.x (v6.10.2 LTS) </li>
 			<li class="next">436k модулей в npm (~1100 каждый день)</li>
 			<li class="next">Народ использует: Netflix, Uber, NASA, PayPal, LinkedIn и еще куча </li>
@@ -386,15 +386,61 @@
 			<li>До некоторых нативных фич тяжело добраться без костылей.</li>
 		</ul>
 	</section>
-	<p class="badge ">
+	<section class="slide">
+		<h2 class="shout shrink">Интернет вещей</h2>
+	</section>
+	<section class="slide" id="tvs">
+		<h2>Smart TVs</h2>
+		<img src="pictures/smart-tv.jpg" alt="" width="700px">
+	</section>
+	<section class="slide" id="watches">
+		<h2>Pebble smartwatches</h2>
+		<img src="pictures/peble.png" alt="" width="700px">
+	</section>
+	<section class="slide" id="watches">
+		<h2>Johnny-Five</h2>
+		<img src="pictures/lazer.jpg" width="600px" alt="">
+	</section>
+
+	<section class="slide" id="edison">
+		<img src="pictures/edison.jpg " alt=" " class="cover ">
+	</section>
+	<section class="slide" id="end">
+		<h2>Спасибо!</h2>
+		<h2 id="questions">Вопросы?</h2>
+		<img src="pictures/the-ring.jpg " alt=" " class="cover ">
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+			#end h2 {
+				position: absolute;
+				left: 50px;
+				color: #FFF;
+				text-align: center;
+				font-size: 70px;
+			}
+			
+			#end h2#questions {
+				position: absolute;
+				top: 500px;
+				left: 50px;
+				color: #FFF;
+				text-align: center;
+				font-size: 70px;
+			}
+		</style>
+	</section>
+	<p class="badge">
 		<a href="https://github.com/shower/shower ">Fork me on GitHub</a>
 	</p>
 	<!--
 		To hide progress bar from entire presentation
 		just remove “progress” element.
 		-->
-	<div class="progress "></div>
-	<script src="shower/shower.min.js "></script>
+	<div class="progress"></div>
+	<script src="shower/shower.min.js"></script>
 	<!-- Copyright © 2015 Yours Truly, Famous Inc. -->
 	<!-- Photos by John Carey, fiftyfootshadows.net -->
 </body>
