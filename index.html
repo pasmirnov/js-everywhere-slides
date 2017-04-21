@@ -148,23 +148,10 @@
 			}
 		</style>
 	</section>
-	<section class="slide">
-		<h2>Что за Node.js вообще?</h2>
-		<ul>
-			<li class="next">JavaScript в браузерах.</li>
-			<li class="next">JavaScript на серверах и десктопе.</li>
-			<li class="next">JavaScript на мобильных платформах</li>
-			<li class="next">Всякий крутой софт.</li>
-		</ul>
-	</section>
 	<section class="slide" id="dahl">
 		<img src="pictures/Ryan_Dahl.jpg" alt="" class="cover">
 		<h2>Ryan Dahl</h2>
 		<p>Презентует node.js в 2010</p>
-		<!--
-			To apply styles to the certain slides
-			set slide ID to get needed elements
-			-->
 		<style>
 			#dahl h2 {
 				color: #000;
@@ -179,7 +166,7 @@
 				font-weight: bold;
 				margin-left: 500px
 			}
-
+			
 			#dahl img {
 				left: 30%
 			}
@@ -187,6 +174,88 @@
 	</section>
 	<section class="slide" id="v8">
 		<img src="pictures/v8.jpg" alt="" class="cover">
+	</section>
+
+	<section class="slide" id="wut">
+		<h2>Ты что несешь вообще?</h2>
+		<img src="pictures/nodejs-new-pantone-black.png" alt="">
+		<ul>
+			<li class="next">Node.js - среда выполнения, основанная на JavaScript движке Chrome v8.</li>
+			<li class="next">Работает в одном потоке.</li>
+			<li class="next">Параллелит с помощью событийно-ориентированной модели (event loop).</li>
+			<li class="next">Использует неблокируещий ввод-вывод.</li>
+			<li class="next">Есть свой менеджер пакетов - Node Package Manager, npm.</li>
+		</ul>
+		<style>
+			#wut img {
+				width: 250px;
+				position: absolute;
+				right: 50px;
+				bottom: 40px;
+			}
+		</style>
+	</section>
+	<section class="slide">
+		<h2>Как дела у ноды</h2>
+		<ul>
+			<li class="next">Уже 7 лет (с 2009, npm since 2010).</li>
+			<li class="next">v7.9.x (v6.10.2 LTS) </li>
+			<li class="next">436k модулей в npm (~1100 каждый день)</li>
+			<li class="next">Народ использует: Netflix, Uber, NASA, PayPal, LinkedIn и еще куча </li>
+		</ul>
+	</section>
+	<section class="slide" id="modules">
+		<h2>Рост числа модулей</h2>
+		<img src="pictures/modules.JPG" alt="" width="700px">
+	</section>
+	<section class="slide" id="languages">
+		<h2 class="shout shrink">Запуск JavaScript из других языков</h2>
+		<img src="pictures/xzibit.png" alt="" class="cover next">
+		<style>
+			#languages img {
+				position: relative;
+				width: 30%;
+				left: 100%;
+				top: 80%;
+			}
+		</style>
+	</section>
+	<section class="slide">
+		<h2>Возможные способы:</h2>
+		<ol>
+			<li>Java - J2v8 or Nashorn</li>
+			<li class="next">Python - v8.py</li>
+			<li class="next">C - Emscripten</li>
+			<li class="next">C++ - Embind</li>
+			<li class="next">Ruby - therubyracer</li>
+			<li class="next">Еще куча всяких</li>
+		</ol>
+	</section>
+	<section class="slide">
+		<h2 class="shout shrink">Десктопные приложения</h2>
+	</section>
+	<section class="slide" id="electron">
+		<img src="pictures/electron.svg" alt="" width="700px">
+		<style>
+			#electron img {
+				position: absolute;
+				top: 40%;
+			}
+		</style>
+	</section>
+	<section class="slide" id="electron-logos">
+		<img src="pictures/vscode-logo.png" alt="">
+		<img src="pictures/atom.png" alt="">
+		<br>
+		<img src="pictures/slack.svg" alt="">
+		<img id="discord" src="pictures/discord.png" alt="">
+		<style>
+		#electron-logos img#discord {
+				position: absolute;
+				width: 400px;
+			}
+		}
+		</style>
 	</section>
 	<p class="badge ">
 		<a href="https://github.com/shower/shower ">Fork me on GitHub</a>
